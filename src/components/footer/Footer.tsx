@@ -30,7 +30,7 @@ const Footer : React.FC = () => {
                       <br/>
                       <a href="https://arkkiivi.fi/?page_id=2980" className='link-color' target='blank'>{t('Footer.FAQ')}</a>
                       <br/>
-                      <a href="https://github.com/" className='link-color' target='blank'>{t('Footer.gitHub')}</a>
+                      <a href="https://github.com/DALAI-project" className='link-color' target='blank'>{t('Footer.gitHub')}</a>
 
                   </Col>
                   <Col xs={2}>
