@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Montserrat-bold', sans-serif;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-regular', sans-serif;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    font-family: "Monteserrat-regular", sans-serif !important
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Monteserrat-bold", sans-serif !important;
+}
+
+p {
+    font-family: "Monteserrat-regular", sans-serif !important;
+}
+
+a {
+    font-family: "Monteserrat-regular", sans-serif !important;
+}
+
+th, tr, option, label {
+    font-family: "Monteserrat-regular", sans-serif !important;
+}

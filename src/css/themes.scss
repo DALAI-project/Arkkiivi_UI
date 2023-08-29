@@ -1,0 +1,11 @@
+// overwriting the bootstrap styles
+$primary: #224C8E;
+$secondary: #7690a0;
+//$dark: #000000;
+$light: #ffffff;
+$success: #4d913c;
+$info: #544;
+$warning: yellow;
+$danger: red;
+
+@import "~bootstrap/scss/bootstrap.scss";

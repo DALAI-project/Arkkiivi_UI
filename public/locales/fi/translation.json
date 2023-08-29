@@ -1,0 +1,162 @@
+{
+    "NavBar" : {
+        "changeLanguage" : "Vaihda kieli",
+        "processControl" : "Profiilien hallinta"
+    },
+    "Uploader" : {
+        "dragFiles" : "Vedä tiedostot tähän tai klikkaa valitaksesi tiedostot",
+        "acceptedFiles" : "Hyväksytyt tiedostot",
+        "rejectedFiles" : "Hylätyt tiedostot",
+        "notYetFiles" : "Ei vielä tiedostoja",
+        "loading" : "Ladataan",
+        "filesProcessed" : "Tiedostoja käsitelty",
+        "processFiles" : "Aloita tiedostojen käsittely",
+        "deleteAllFiles" : "Poista kaikki tiedostot",
+        "downloadCSV" : "Lataa CSV tiedosto (Metatiedot)",
+        "downloadCSVFlaw" : "Lataa CSV tiedosto (Virheet)",
+        "noChosenComponents" : "Komponentteja ei ole valittu",
+        "metadataError" : "Metadatan tunnistuksessa tapahtui virhe!",
+        "success" : "Tiedostot käsitelty onnistuneesti!",
+        "flawError" : "Virheiden tunnistuksessa tapahtui virhe!"
+    },
+    "AcceptedFiles" : {
+        "data" : "Tulokset",
+        "emptyPages" : "Tyhjät sivut",
+        "page" : "sivu",
+        "postIt" : "Post-it",
+        "bentCorners" : "Taittuneet kulmat",
+        "writingType" : "Kirjoitustyyppi",
+        "isHandwritten" : "on käsinkirjoitettu",
+        "isTypewritten" : "on konekirjoitettu",
+        "isCombination" : "on yhdistelmä",
+        "keyWords" : "Asiasanat",
+        "names" : "Nimet",
+        "actor" : "Toimijat",
+        "sosNumber" : "Henkilötunnus",
+        "yField" : "Y-tunnus",
+        "diar" : "Diaarinumero",
+        "date" : "Päivämäärä",
+        "language" : "Kieli",
+        "loc" : "Paikat",
+        "gpe" : "Geopoliittiset paikat",
+        "product" : "Tuotteet",
+        "event" : "Tapahtumat",
+        "norp" : "Kansallisuus, uskonnolliset ja poliittiset ryhmät"
+    },
+    "ChooseProcess" : {
+        "ready-madeProcess" : "Valitse profiili",
+        "left" : "Virhetunnistukset",
+        "right" : "Metatiedot"
+    },
+    "SaveProcess" : {
+        "saveCurrent" : "Tallenna valinnat profiiliksi"
+    },
+    "SideBar" : {
+        "components" : "Komponentit"
+    },
+    "SaveSettingsModal" : {
+        "saveCurrentSettings" : "Tallenna nykyiset asetukset",
+        "chosenSettings" : "Valitut asetukset",
+        "emptyCheck" : "Tyhjien tunnistus",
+        "stripe" : "Raita",
+        "postIt" : "Post-it",
+        "bentCorner" : "Taittunut kulma",
+        "keyWords" : "Asiasanat",
+        "names" : "Nimet",
+        "actor" : "Toimijat",
+        "sosNumber" : "Henkilötunnus",
+        "yField" : "Y-tunnus",
+        "diar" : "Diaarinumero",
+        "date" : "Päivämäärä",
+        "language" : "Kieli",
+        "loc" : "Paikat",
+        "gpe" : "Geopoliittiset paikat",
+        "product" : "Tuotteet",
+        "event" : "Tapahtumat",
+        "norp" : "Kansallisuus, uskonnolliset ja poliittiset ryhmät",
+        "writingType" : "Kirjoitustyypin tunnistus",
+        "segmentation" : "Segmentointi",
+        "nameProcess" : "Nimeä profiili",
+        "close" : "Sulje",
+        "save" : "Tallenna",
+        "giveName" : "Anna profiilille nimi"
+    },
+    "ProcessControlModal" : {
+        "processControl" : "Profiilien hallinta",
+        "processes" : "Omat profiilit",
+        "save" : "Tallenna",
+        "left" : "Virhetunnistukset",
+        "right" : "Metatiedot",
+        "close" : "Sulje"
+    },
+    "InfoModal" : {
+        "about" : "Tietoa valittavista komponenteista",
+        "readMore" : "Lue lisää",
+        "emptyCheck" : "Tyhjien tunnistus",
+        "emptyCheckText" : "Luokittelee asiakirjasivun 1) luokkaan ”tyhjä”, jos sivulla ei ole sisältöä, tai 2) luokkaan ”sisällöllinen”, jos sivu ei ole tyhjä. Dokumentista ilmoitetaan sivunumerot, joissa sivu on tunnistettu tyhjäksi. Sivun kääntöpuolelta läpi heijastuva sisältö tai sivunumeron ja lyijykynämerkinnän kaltaiset sisältöelementit saattavat johtaa virheelliseen luokitukseen.",
+        "postIt" : "Post-itien tunnistus",
+        "postItText" : "Luokittelee asiakirjasivun 1) luokkaan ”tyhjä”, jos sivulla ei ole sisältöä, tai 2) luokkaan ”sisällöllinen”, jos sivu ei ole tyhjä. Dokumentista ilmoitetaan sivunumerot, joissa sivu on tunnistettu tyhjäksi. Sivun kääntöpuolelta läpi heijastuva sisältö tai sivunumeron ja lyijykynämerkinnän kaltaiset sisältöelementit saattavat johtaa virheelliseen luokitukseen.",
+        "bentCorner" : "Taittuneiden kulmien tunnistus",
+        "bentCornerText" : "Luokittelee asiakirjasivun 1) luokkaan ”ok”, jos sivu ei sisällä taittuneita tai revenneitä kohtia, tai 2) luokkaan ”taittunut kulma”, jos sivu sisältää yhden tai useamman taittuneen tai revenneen kohdan. Dokumentista ilmoitetaan sivunumerot, joissa taittuneita tai revenneitä kohtia on havaittu. Mikäli dokumentin kulma muistuttaa värityksen tai muodon takia taitosta, saattaa tämä johtaa virheelliseen luokitukseen.",
+        "metadata" : "Metatietojen tunnistus",
+        "metadataText" : "Tunnistaa asiakirjasivulle suoritetun tekstintunnistuksen tuloksesta päivämääriä, diaarinumeroita, henkilö- ja y-tunnuksia sekä määrittää asiakirjasivun tunnistetussa tekstisisällössä käytetyn kielen. Tunnistustulokset ovat riippuvaisia tekstintunnistuksen laadusta, joten esimerkiksi kuvatiedoston epätarkkuus, tekstin asettelu ja taulukoiden kaltaiset sisältöelementit saattavat vaikuttaa metatietojen tunnistuksen laatuun.",
+        "keyWords" : "Asiasanoittaja",
+        "keyWordsText" : "Käyttää Annif-ohjelmistoa automaattiseen asiasanoittamiseen. Ohjelmisto perustuu erilaisten koneoppimismallien yhdistämiseen. Annif on kehitetty Kansalliskirjastossa, ks. www.annif.org",
+        "writingType" : "Kirjoitustyypin tunnistus",
+        "writingTypeText" : "Luokittelee asiakirjasivun sen sisältämien kirjoitustyyppien mukaan yhteen kolmesta luokasta: 1) ”konekirjoitettu”, jos sivu sisältää vain konekirjoitettua tekstiä, 2) ”käsinkirjoitettu”, jos sivu sisältää vain käsinkirjoitettua tekstiä, ja 3) ”yhdistelmä”, jos sivu sisältää molempia kirjoitustyyppejä. Yhdistelmäluokka on näistä tekoälylle hankalin erityisesti, jos käsinkirjoitettua tekstiä on vähän.",
+        "close" : "Sulje"
+    },
+    "PdfDisplay" : {
+        "loading" : "Dokumenttia ladataan...",
+        "error" : "Dokumentin latauksessa tapahtui virhe!"
+    },
+    "ReactPdf" : {
+        "previousPage" : "Edellinen sivu",
+        "nextPage" : "Seuraava sivu"
+    },
+    "Banner" : {
+        "infoAboutComponents" : "Tutustu komponentteihin"
+    },
+    "EmptyCheck" : {
+        "empty" : "Tyhjien tunnistus"
+    },
+    "FlawCheck" : {
+        "flaw" : "Virheiden tunnistus",
+        "postIt" : "Post-it",
+        "corner" : "Taittunut kulma"
+    },
+    "MetadataCheck" : {
+        "metadata" : "Metatiedot",
+        "keyWords" : "Asiasanat",
+        "name" : "Nimet",
+        "act" : "Toimijat",
+        "sosNumber" : "Henkilötunnus",
+        "yField" : "Y-tunnus",
+        "diar" : "Diaarinumero",
+        "date" : "Päivämäärä",
+        "language" : "Kieli",
+        "loc" : "Paikat",
+        "gpe" : "Geopoliittiset paikat",
+        "product" : "Tuotteet",
+        "event" : "Tapahtumat",
+        "norp" : "Kansallisuus, uskonnolliset ja poliittiset ryhmät",
+        "ner" : "Nimientiteetit"
+    },
+    "WritingTypeCheck" : {
+        "writingType" : "Kirjoitustyypin tunnistus"
+    },
+    "Footer" : {
+        "homePage" : "Etusivu",
+        "infoAboutComponents" : "Tietoa komponenteista",
+        "infoAboutProject" : "Tietoa hankkeesta",
+        "FAQ" : "Usein kysytyt kysymykset",
+        "gitHub" : "GitHub"
+    },
+    "RejectedFilesInfo" : {
+        "fileTypes" : "Tuetut tiedostotyypit",
+        "close" : "Sulje"
+    },
+    "ViewFilesModal" : {
+        "inspectFile" : "Tiedoston tarkastelu"
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "NavBar" : {
+        "changeLanguage" : "Byt språk",
+        "processControl" : "Administration av profiler"
+    },
+    "Uploader" : {
+        "dragFiles" : "Dra filer här eller klicka för att välja filer",
+        "acceptedFiles" : "Godkända filer",
+        "rejectedFiles" : "Förkastade filer",
+        "notYetFiles" : "Inga filer ännu",
+        "loading" : "Laddar",
+        "filesProcessed" : "Filer behandlade",
+        "processFiles" : "Påbörja filbehandling",
+        "deleteAllFiles" : "Ta bort alla filer",
+        "downloadCSV" : "Ladda ner csv-fil (Metadata)",
+        "downloadCSVFlaw" : "Ladda ner csv-fil (Fel)",
+        "noChosenComponents" : "Inga komponenter har valts",
+        "metadataError" : "Det uppstod ett fel i igenkänningen av metadata!",
+        "success" : "Filerna har behandlats framgångsrikt!",
+        "flawError" : "Ett fel uppstod vid igenkänningen av fel!"
+
+    },
+    "AcceptedFiles" : {
+        "data" : "Resultat",
+        "emptyPages" : "Tomma sidor",
+        "page" : "sida",
+        "postIt" : "Post-it",
+        "bentCorners" : "Vikt hörn",
+        "writingType" : "Skrivtyp",
+        "isHandwritten" : "är handskriven",
+        "isTypewritten" : "är maskinskriven",
+        "isCombination" : "är en kombination",
+        "keyWords" : "Ämnesord",
+        "names" : "Namn",
+        "actor" : "Aktörer",
+        "sosNumber" : "Henkilötunnus",
+        "yField" : "FO-nummer",
+        "diar" : "Diarienummer",
+        "date" : "Datum",
+        "language" : "Språk",
+        "loc" : "Orter",
+        "gpe" : "Geopolitiska orter",
+        "product" : "Produkter",
+        "event" : "Händelser",
+        "norp" : "Nationalitet, religiösa och politiska grupper"
+    },
+    "ChooseProcess" : {
+        "ready-madeProcess" : "Välj profil",
+        "left" : "Feligenkänning",
+        "right" : "Metadata"
+    },
+    "SaveProcess" : {
+        "saveCurrent" : "Spara val som profil"
+    },
+    "SideBar" : {
+        "components" : "Komponenter"
+    },
+    "SaveSettingsModal" : {
+        "saveCurrentSettings" : "Spara nuvarande inställningar",
+        "chosenSettings" : "Valda inställningar",
+        "emptyCheck" : "Igenkänning av tomma sidor",
+        "stripe" : "Raita",
+        "postIt" : "Post-it",
+        "bentCorner" : "Vikt hörn",
+        "keyWords" : "Ämnesord",
+        "names" : "Namn",
+        "actor" : "Aktörer",
+        "sosNumber" : "Henkilötunnus",
+        "yField" : "FO-nummer",
+        "diar" : "Diarienummer",
+        "date" : "Datum",
+        "language" : "Språk",
+        "loc" : "Orter",
+        "gpe" : "Geopolitiska orter",
+        "product" : "Produkter",
+        "event" : "Händelser",
+        "norp" : "Norp",
+        "writingType" : "Igenkänning av skrivtyp",
+        "segmentation" : "Segmentointi",
+        "nameProcess" : "Namnge profil",
+        "close" : "Stäng",
+        "save" : "Spara",
+        "giveName" : "Ange namn på profilen"
+    },
+    "ProcessControlModal" : {
+        "processControl" : "Administration av profiler",
+        "processes" : "Mina profiler",
+        "save" : "Spara",
+        "left" : "Feligenkänning",
+        "right" : "Metadata",
+        "close" : "Stäng"
+    },
+    "InfoModal" : {
+        "about" : "Information om valbara komponenter",
+        "readMore" : "Läs mer",
+        "emptyCheck" : "Igenkänning av tomma sidor",
+        "emptyCheckText" : "Klassificerar en dokumentsida som tom om sidan saknar innehåll, eller som innehållslig om sidan inte är tom. Innehåll som syns igenom från sidans baksida eller innehållselement som sidnummer och blyertsanteckningar kan leda till en felaktig klassificering.",
+        "postIt" : "Igenkänning av post-it-lappar",
+        "postItText" : "Klassificerar dokumentsidor i två kategorier beroende på om sidan innehåller en eller flera post-it-lappar eller inte. Innehållselement som liknar post-it-lappar, t.ex. fyrkantiga textfält i färg, kan leda till en felaktig klassificering.",
+        "bentCorner" : "Igenkänning av vikta sidhörn",
+        "bentCornerText" : "Klassificerar dokumentsidor i två kategorier beroende på om sidan är vikt eller sönderriven eller inte. Om ett dokumenthörn på grund av sin färg eller form liknar ett vikt eller sönderrivet sidhörn, kan detta leda till en felaktig klassificering.",
+        "metadata" : "Igenkänning av metadata",
+        "metadataText" : "Känner baserat på resultatet av textigenkänningen av en dokumentsida igen namnentiteter, tar fram ämnesord som beskriver texten och anger vilket språk som använts i textinnehållet. På basis av det igenkända språket används antingen finska eller engelska modeller vid metadataigenkänning och ämnesordsindexering. Vid en automatisk ämnesordsindexering används Annif-programvaran (www.annif.org) som utvecklats i Nationalbiblioteket. Resultaten av igenkänningen är beroende av kvaliteten på textigenkänningen, och därför kan till exempel bildfilens oprecision, textlayout och innehållselement som tabeller påverka kvaliteten på metadataigenkänningen.",
+        "keyWords" : "Asiasanoittaja",
+        "keyWordsText" : "Käyttää Annif-ohjelmistoa automaattiseen asiasanoittamiseen. Ohjelmisto perustuu erilaisten koneoppimismallien yhdistämiseen. Annif on kehitetty Kansalliskirjastossa, ks. www.annif.org",
+        "writingType" : "Igenkänning av skrivtyp",
+        "writingTypeText" : "Klassificerar en dokumentsida efter de skrivtyper som sidan innehåller i en av följande tre kategorier: 1) maskinskriven, om sidan endast innehåller maskinskriven text, 2) handskriven, om sidan endast innehåller handskriven text och 3) kombination, om sidan innehåller båda skrivtyperna. Igenkänningen av kategorin kombination är svårast för artificiell intelligens, särskilt om det finns lite handskriven text.",
+        "close" : "Stäng"
+    },
+    "PdfDisplay" : {
+        "loading" : "Laddar dokumentet...",
+        "error" : "Det uppstod ett fel i laddningen av dokumentet!"
+    },
+    "ReactPdf" : {
+        "previousPage" : "Föregående sida",
+        "nextPage" : "Nästa sida"
+    },
+    "Banner" : {
+        "infoAboutComponents" : "Läs mer om komponenterna"
+    },
+    "EmptyCheck" : {
+        "empty" : "Igenkänning av tomma sidor"
+    },
+    "FlawCheck" : {
+        "flaw" : "Feligenkänning",
+        "postIt" : "Post-it",
+        "corner" : "Vikt hörn"
+    },
+    "MetadataCheck" : {
+        "metadata" : "Metadata",
+        "keyWords" : "Ämnesord",
+        "name" : "Namn",
+        "act" : "Aktörer",
+        "sosNumber" : "Henkilötunnus",
+        "yField" : "FO-nummer",
+        "diar" : "Diarienummer",
+        "date" : "Datum",
+        "language" : "Språk",
+        "loc" : "Orter",
+        "gpe" : "Geopolitiska orter",
+        "product" : "Produkter",
+        "event" : "Händelser",
+        "norp" : "Nationalitet, religiösa och politiska grupper",
+        "ner" : "Namnentiteter"
+    },
+    "WritingTypeCheck" : {
+        "writingType" : "Igenkänning av skrivtyp"
+    },
+    "Footer" : {
+        "homePage" : "Ingångssida",
+        "infoAboutComponents" : "Information om komponenterna",
+        "infoAboutProject" : "Information om projektet",
+        "FAQ" : "Vanliga frågor",
+        "gitHub" : "GitHub"
+    },
+    "RejectedFilesInfo" : {
+        "fileTypes" : "Stöds filformat",
+        "close" : "Stäng"
+    },
+    "ViewFilesModal" : {
+        "inspectFile" : "Inspektera filen"
+    }
+}

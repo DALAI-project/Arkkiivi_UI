@@ -1,0 +1,162 @@
+{
+    "NavBar" : {
+        "changeLanguage" : "Change language",
+        "processControl" : "Profile management"
+    },
+    "Uploader" : {
+        "dragFiles" : "Drag 'n' drop files here or click to select files",
+        "acceptedFiles" : "Accepted files",
+        "rejectedFiles" : "Rejected files",
+        "notYetFiles" : "No files yet",
+        "loading" : "Loading",
+        "filesProcessed" : "Files processed",
+        "processFiles" : "Start processing files",
+        "deleteAllFiles" : "Delete all files",
+        "downloadCSV" : "Download CSV (Metadata)",
+        "downloadCSVFlaw" : "Download CSV (Faulty image)",
+        "noChosenComponents" : "No components selected",
+        "metadataError" : "An error occurred during metadata extraction!",
+        "success" : "Files processed successfully!",
+        "flawError" : "An error occurred during faulty image detection!"
+    },
+    "AcceptedFiles" : {
+        "data" : "Results",
+        "emptyPages" : "Empty pages",
+        "page" : "page",
+        "postIt" : "Sticky Notes",
+        "bentCorners" : "Folded corners",
+        "writingType" : "Writing type",
+        "isHandwritten" : "is handwritten",
+        "isTypewritten" : "is typewritten",
+        "isCombination" : "is a combination",
+        "keyWords" : "Index terms",
+        "names" : "Person Names",
+        "actor" : "Organizations",
+        "sosNumber" : "Social security number",
+        "yField" : "Finnish Business identity code",
+        "diar" : "Finnish journal number",
+        "date" : "Date",
+        "language" : "Language",
+        "loc" : "Locations",
+        "gpe" : "Geopolitical locations",
+        "product" : "Products",
+        "event" : "Events",
+        "norp" : "Nationality, religious and political groups"
+    },
+    "ChooseProcess" : {
+        "ready-madeProcess" : "Select profile",
+        "left" : "Error identifications",
+        "right" : "Metadata"
+    },
+    "SaveProcess" : {
+        "saveCurrent" : "Save current settings"
+    },
+    "SideBar" : {
+        "components" : "Components"
+    },
+    "SaveSettingsModal" : {
+        "saveCurrentSettings" : "Save current settings",
+        "chosenSettings" : "Selected settings",
+        "emptyCheck" : "Detection of blank pages",
+        "stripe" : "Stripes",
+        "postIt" : "Sticky Notes Detection",
+        "bentCorner" : "Folded Corner Detection",
+        "keyWords" : "Subject Indexing ",
+        "names" : "Person Names",
+        "actor" : "Organizations",
+        "sosNumber" : "Social security number",
+        "yField" : "Finnish Business identity code",
+        "diar" : "Finnish journal number",
+        "date" : "Date",
+        "language" : "Language",
+        "loc" : "Locations",
+        "gpe" : "Geopolitical locations",
+        "product" : "Products",
+        "event" : "Events",
+        "norp" : "Nationality, religious and political groups",
+        "writingType" : "Writing Type Detection",
+        "segmentation" : "Segmentation",
+        "nameProcess" : "Name profile",
+        "close" : "Close",
+        "save" : "Save",
+        "giveName" : "Name the profile"
+    },
+    "ProcessControlModal" : {
+        "processControl" : "Profile management",
+        "processes" : "My profiles",
+        "save" : "Save",
+        "left" : "Error identifications",
+        "right" : "Metadata",
+        "close" : "Close"
+    },
+    "InfoModal" : {
+        "about" : "About selectable components",
+        "readMore" : "Read more",
+        "emptyCheck" : "Detection of blank pages",
+        "emptyCheckText" : "Classifies a document page as blank if the page has no content, or having content if the page is not blank. Content reflected through the back of the page or content elements such as page numbers and pencil markings may lead to incorrect classification.",
+        "postIt" : "Identification of post-it notes",
+        "postItText" : "Classifies the document page into two classes based on whether or not the page contains one or more post-it notes. Content elements that resemble post-it notes, such as coloured rectangular text fields, may result in incorrect classification.",
+        "bentCorner" : "Folded Corner Detection",
+        "bentCornerText" : "Classifies the document page into two categories based on whether or not the page contains folded or torn sections. If a document corner resembles a fold or tear due to its colour or shape, this may lead to an incorrect classification.",
+        "metadata" : "Metadata identification",
+        "metadataText" : "Identifies name identities from the result of the optical character recognition performed on the document page, produces descriptive keywords for the text and determines the language used in the text content. Based on the identified language, either Finnish or English models are used in identifying and keywording metadata. The Annif software developed at the National Library of Finland (www.annif.org) is used in automated keywording. Identification results depend on the quality of OCR, so image file inaccuracy, text layout, and table-like content elements, for example, may affect the quality of metadata identification.",
+        "keyWords" : "Asiasanoittaja",
+        "keyWordsText" : "Käyttää Annif-ohjelmistoa automaattiseen asiasanoittamiseen. Ohjelmisto perustuu erilaisten koneoppimismallien yhdistämiseen. Annif on kehitetty Kansalliskirjastossa, ks. www.annif.org",
+        "writingType" : "Typeface recognition",
+        "writingTypeText" : "Classifies the document page into one of the following three classes on the basis its typefaces: 1) “typed” if the page only contains typed text, 2) “handwritten” if the page only contains handwritten text, and 3) “combined” if the page contains both typefaces. Combination class identification is the most difficult of these for artificial intelligence, especially if there is little handwritten text.",
+        "close" : "Close"
+    },
+    "PdfDisplay" : {
+        "loading" : "Loading document...",
+        "error" : "There was an error in loading the document!"
+    },
+    "ReactPdf" : {
+        "previousPage" : "Previous page",
+        "nextPage" : "Next page"
+    },
+    "Banner" : {
+        "infoAboutComponents" : "Explore components"
+    },
+    "EmptyCheck" : {
+        "empty" : "Blank Page Detection"
+    },
+    "FlawCheck" : {
+        "flaw" : "Faulty Image Detection",
+        "postIt" : "Sticky Notes",
+        "corner" : "Folded Corner"
+    },
+    "MetadataCheck" : {
+        "metadata" : "Metadata Extraction",
+        "keyWords" : "Subject Indexing",
+        "name" : "Person Names",
+        "act" : "Organizations",
+        "sosNumber" : "Henkilötunnus",
+        "yField" : "Finnish Business Identity Code",
+        "diar" : "Finnish Journal Number",
+        "date" : "Date",
+        "language" : "Language",
+        "loc" : "Locations",
+        "gpe" : "Geopolitical locations",
+        "product" : "Products",
+        "event" : "Events",
+        "norp" : "Nationality, religious and political groups",
+        "ner" : "Name entities"
+    },
+    "WritingTypeCheck" : {
+        "writingType" : "Writing Type Detection"
+    },
+    "Footer" : {
+        "homePage" : "Front page",
+        "infoAboutComponents" : "About components",
+        "infoAboutProject" : "About the project",
+        "FAQ" : "Frequently asked questions",
+        "gitHub" : "GitHub"
+    },
+    "RejectedFilesInfo" : {
+        "fileTypes" : "Supported file types",
+        "close" : "Close"
+    },
+    "ViewFilesModal" : {
+        "inspectFile" : "Inspect file"
+    }
+}
